@@ -24,8 +24,8 @@
 #endif
 
 #include "portblas_common.hpp"
-#include "oneapi/mkl/exceptions.hpp"
-#include "oneapi/mkl/blas/detail/portblas/onemkl_blas_portblas.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
+#include "oneapi/onemkl/blas/detail/portblas/onemkl_blas_portblas.hpp"
 
 namespace oneapi {
 namespace mkl {

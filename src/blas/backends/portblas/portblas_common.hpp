@@ -21,8 +21,8 @@
 #define _PORTBLAS_COMMON_HPP_
 
 #include "portblas.hpp"
-#include "oneapi/mkl/types.hpp"
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/types.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
 #include <tuple>
 #include <utility>

@@ -17,7 +17,7 @@
 * SPDX-License-Identifier: Apache-2.0
 *******************************************************************************/
 
-#include "oneapi/mkl/dft/detail/cufft/onemkl_dft_cufft.hpp"
+#include "oneapi/onemkl/dft/detail/cufft/onemkl_dft_cufft.hpp"
 #include "dft/function_table.hpp"
 
 #define WRAPPER_VERSION 1

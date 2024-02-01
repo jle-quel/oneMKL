@@ -23,14 +23,14 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/types.hpp"
-#include "oneapi/mkl/detail/backends.hpp"
-#include "oneapi/mkl/dft/types.hpp"
-#include "oneapi/mkl/dft/descriptor.hpp"
+#include "oneapi/onemkl/types.hpp"
+#include "oneapi/onemkl/detail/backends.hpp"
+#include "oneapi/onemkl/dft/types.hpp"
+#include "oneapi/onemkl/dft/descriptor.hpp"
 
-#include "oneapi/mkl/dft/detail/mklcpu/onemkl_dft_mklcpu.hpp"
+#include "oneapi/onemkl/dft/detail/mklcpu/onemkl_dft_mklcpu.hpp"
 
-#include "oneapi/mkl/dft/detail/commit_impl.hpp"
+#include "oneapi/onemkl/dft/detail/commit_impl.hpp"
 
 #include "dft/backends/mklcpu/commit_derived_impl.hpp"
 #include "mkl_service.h"

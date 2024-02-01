@@ -22,8 +22,8 @@
 #include "rocblas_helper.hpp"
 #include "rocblas_task.hpp"
 
-#include "oneapi/mkl/exceptions.hpp"
-#include "oneapi/mkl/blas/detail/rocblas/onemkl_blas_rocblas.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
+#include "oneapi/onemkl/blas/detail/rocblas/onemkl_blas_rocblas.hpp"
 
 namespace oneapi {
 namespace mkl {

@@ -23,11 +23,11 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
-#include "oneapi/mkl/dft/descriptor.hpp"
-#include "oneapi/mkl/dft/detail/mklcpu/onemkl_dft_mklcpu.hpp"
-#include "oneapi/mkl/dft/types.hpp"
+#include "oneapi/onemkl/dft/descriptor.hpp"
+#include "oneapi/onemkl/dft/detail/mklcpu/onemkl_dft_mklcpu.hpp"
+#include "oneapi/onemkl/dft/types.hpp"
 
 #include "dft/backends/mklcpu/commit_derived_impl.hpp"
 

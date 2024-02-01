@@ -17,9 +17,9 @@
 * SPDX-License-Identifier: Apache-2.0
 *******************************************************************************/
 
-#include "oneapi/mkl/sparse_blas/types.hpp"
+#include "oneapi/onemkl/sparse_blas/types.hpp"
 
-#include "oneapi/mkl/sparse_blas/detail/mklcpu/onemkl_sparse_blas_mklcpu.hpp"
+#include "oneapi/onemkl/sparse_blas/detail/mklcpu/onemkl_sparse_blas_mklcpu.hpp"
 
 #include "sparse_blas/function_table.hpp"
 

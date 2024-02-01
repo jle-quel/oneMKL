@@ -24,8 +24,8 @@
 #endif
 
 #include "netlib_common.hpp"
-#include "oneapi/mkl/blas/detail/netlib/onemkl_blas_netlib.hpp"
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/blas/detail/netlib/onemkl_blas_netlib.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
 namespace oneapi {
 namespace mkl {

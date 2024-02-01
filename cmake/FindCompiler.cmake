@@ -45,10 +45,10 @@ if(is_dpcpp)
                 OR ENABLE_ROCSOLVER_BACKEND)
       list(APPEND UNIX_INTERFACE_COMPILE_OPTIONS
         -fsycl-targets=amdgcn-amd-amdhsa -fsycl-unnamed-lambda 
-	-Xsycl-target-backend --offload-arch=${HIP_TARGETS})
+  -Xsycl-target-backend --offload-arch=${HIP_TARGETS} --rocm-path=/opt/rocm/5.4.3)
       list(APPEND UNIX_INTERFACE_LINK_OPTIONS
         -fsycl-targets=amdgcn-amd-amdhsa -Xsycl-target-backend 
-	--offload-arch=${HIP_TARGETS})
+  --offload-arch=${HIP_TARGETS} --rocm-path=/opt/rocm/5.4.3)
     endif()
     if(ENABLE_CURAND_BACKEND OR ENABLE_CUSOLVER_BACKEND OR ENABLE_ROCBLAS_BACKEND
 	    OR ENABLE_ROCRAND_BACKEND OR ENABLE_ROCSOLVER_BACKEND)

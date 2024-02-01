@@ -23,19 +23,19 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/types.hpp"
-#include "oneapi/mkl/exceptions.hpp"
-#include "oneapi/mkl/detail/backends.hpp"
+#include "oneapi/onemkl/types.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
+#include "oneapi/onemkl/detail/backends.hpp"
 
-#include "oneapi/mkl/dft/detail/commit_impl.hpp"
-#include "oneapi/mkl/dft/detail/types_impl.hpp"
-#include "oneapi/mkl/dft/detail/descriptor_impl.hpp"
-#include "oneapi/mkl/dft/detail/mklgpu/onemkl_dft_mklgpu.hpp"
+#include "oneapi/onemkl/dft/detail/commit_impl.hpp"
+#include "oneapi/onemkl/dft/detail/types_impl.hpp"
+#include "oneapi/onemkl/dft/detail/descriptor_impl.hpp"
+#include "oneapi/onemkl/dft/detail/mklgpu/onemkl_dft_mklgpu.hpp"
 
 #include "dft/backends/mklgpu/mklgpu_helpers.hpp"
 
 // MKLGPU header
-#include "oneapi/mkl/dfti.hpp"
+#include "oneapi/onemkl/dfti.hpp"
 
 /**
 Note that in this file, the Intel oneMKL closed-source library's interface mirrors the interface

@@ -31,7 +31,7 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 
 namespace test_log {
 

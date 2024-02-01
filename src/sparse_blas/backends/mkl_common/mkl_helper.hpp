@@ -19,13 +19,13 @@
 
 // MKLCPU and MKLGPU backends include
 // This include defines its own oneapi::mkl::sparse namespace with some of the types that are used here: matrix_handle_t, index_base, transpose, uolo, diag.
-#include <oneapi/mkl/spblas.hpp>
+#include <oneapi/onemkl/spblas.hpp>
 
 // Includes are set up so that oneapi::mkl::sparse namespace refers to the MKLCPU and MKLGPU backends namespace (oneMKL product)
 // in this file.
 // oneapi::mkl::sparse::detail namespace refers to the oneMKL interface namespace.
 
-#include "oneapi/mkl/sparse_blas/detail/helper_types.hpp"
+#include "oneapi/onemkl/sparse_blas/detail/helper_types.hpp"
 
 namespace oneapi::mkl::sparse::detail {
 

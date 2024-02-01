@@ -20,12 +20,12 @@
 #ifndef _ONEMKL_HPP_
 #define _ONEMKL_HPP_
 
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 
-#include "oneapi/mkl/blas.hpp"
-#include "oneapi/mkl/dft.hpp"
-#include "oneapi/mkl/lapack.hpp"
-#include "oneapi/mkl/rng.hpp"
-#include "oneapi/mkl/sparse_blas.hpp"
+#include "oneapi/onemkl/blas.hpp"
+#include "oneapi/onemkl/dft.hpp"
+#include "oneapi/onemkl/lapack.hpp"
+#include "oneapi/onemkl/rng.hpp"
+#include "oneapi/onemkl/sparse_blas.hpp"
 
 #endif //_ONEMKL_HPP_

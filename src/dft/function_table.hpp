@@ -29,9 +29,9 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/types.hpp"
-#include "oneapi/mkl/dft/types.hpp"
-#include "oneapi/mkl/dft/descriptor.hpp"
+#include "oneapi/onemkl/types.hpp"
+#include "oneapi/onemkl/dft/types.hpp"
+#include "oneapi/onemkl/dft/descriptor.hpp"
 
 typedef struct {
     int version;

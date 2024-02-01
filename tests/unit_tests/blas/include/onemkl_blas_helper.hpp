@@ -22,7 +22,7 @@
 
 #include "cblas.h"
 
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 
 typedef enum { CblasRowOffset = 101, CblasColOffset = 102, CblasFixOffset = 103 } CBLAS_OFFSET;
 

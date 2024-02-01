@@ -28,7 +28,7 @@
 #else
 #include <CL/sycl.hpp>
 #endif
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 #include "cusolver_scope_handle.hpp"
 #if __has_include(<sycl/detail/pi.hpp>)
 #include <sycl/detail/pi.hpp>

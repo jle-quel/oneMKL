@@ -33,7 +33,7 @@
 #include <cuda_fp16.h>
 #include <complex>
 
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 #include "runtime_support_helper.hpp"
 
 namespace oneapi {

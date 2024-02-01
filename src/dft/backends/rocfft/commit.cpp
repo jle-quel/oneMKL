@@ -27,12 +27,12 @@
 #include <algorithm>
 #include <optional>
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
-#include "oneapi/mkl/dft/detail/commit_impl.hpp"
-#include "oneapi/mkl/dft/detail/descriptor_impl.hpp"
-#include "oneapi/mkl/dft/detail/rocfft/onemkl_dft_rocfft.hpp"
-#include "oneapi/mkl/dft/types.hpp"
+#include "oneapi/onemkl/dft/detail/commit_impl.hpp"
+#include "oneapi/onemkl/dft/detail/descriptor_impl.hpp"
+#include "oneapi/onemkl/dft/detail/rocfft/onemkl_dft_rocfft.hpp"
+#include "oneapi/onemkl/dft/types.hpp"
 
 #include "rocfft_handle.hpp"
 

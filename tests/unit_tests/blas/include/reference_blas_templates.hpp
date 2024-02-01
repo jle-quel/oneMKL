@@ -24,7 +24,7 @@
 #include <complex>
 #include <cstdint>
 #include "cblas.h"
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 #include "test_helper.hpp"
 #include "reference_blas_wrappers.hpp"
 

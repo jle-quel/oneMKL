@@ -28,12 +28,12 @@
 
 #include <portfft/portfft.hpp>
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
-#include "oneapi/mkl/dft/detail/commit_impl.hpp"
-#include "oneapi/mkl/dft/detail/descriptor_impl.hpp"
-#include "oneapi/mkl/dft/detail/portfft/onemkl_dft_portfft.hpp"
-#include "oneapi/mkl/dft/types.hpp"
+#include "oneapi/onemkl/dft/detail/commit_impl.hpp"
+#include "oneapi/onemkl/dft/detail/descriptor_impl.hpp"
+#include "oneapi/onemkl/dft/detail/portfft/onemkl_dft_portfft.hpp"
+#include "oneapi/onemkl/dft/types.hpp"
 
 #include "portfft_helper.hpp"
 

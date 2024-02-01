@@ -19,7 +19,7 @@
 
 #include "../mkl_common/mkl_helper.hpp"
 
-#include "oneapi/mkl/sparse_blas/detail/mklgpu/onemkl_sparse_blas_mklgpu.hpp"
+#include "oneapi/onemkl/sparse_blas/detail/mklgpu/onemkl_sparse_blas_mklgpu.hpp"
 
 namespace oneapi::mkl::sparse::mklgpu {
 

@@ -26,7 +26,7 @@
 #include <vector>
 #include <numeric>
 
-#include <oneapi/mkl/exceptions.hpp>
+#include <oneapi/onemkl/exceptions.hpp>
 #include "test_common.hpp"
 
 namespace detail {

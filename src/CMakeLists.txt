@@ -38,13 +38,13 @@ foreach(domain ${TARGET_DOMAINS})
 endforeach()
 
 # Generate header with enabled backends for testing
-configure_file(config.hpp.in "${CMAKE_CURRENT_BINARY_DIR}/oneapi/mkl/config.hpp.configured")
+configure_file(config.hpp.in "${CMAKE_CURRENT_BINARY_DIR}/oneapi/onemkl/config.hpp.configured")
 file(GENERATE
-  OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/oneapi/mkl/detail/config.hpp"
-  INPUT "${CMAKE_CURRENT_BINARY_DIR}/oneapi/mkl/config.hpp.configured"
+  OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/oneapi/onemkl/detail/config.hpp"
+  INPUT "${CMAKE_CURRENT_BINARY_DIR}/oneapi/onemkl/config.hpp.configured"
 )
-install(FILES "${CMAKE_CURRENT_BINARY_DIR}/oneapi/mkl/detail/config.hpp"
-  DESTINATION include/oneapi/mkl/detail
+install(FILES "${CMAKE_CURRENT_BINARY_DIR}/oneapi/onemkl/detail/config.hpp"
+  DESTINATION include/oneapi/onemkl/detail
   COMPONENT Devel
 )
 

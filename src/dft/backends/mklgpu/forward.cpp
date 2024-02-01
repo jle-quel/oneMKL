@@ -24,15 +24,15 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
-#include "oneapi/mkl/dft/detail/mklgpu/onemkl_dft_mklgpu.hpp"
-#include "oneapi/mkl/dft/detail/descriptor_impl.hpp"
+#include "oneapi/onemkl/dft/detail/mklgpu/onemkl_dft_mklgpu.hpp"
+#include "oneapi/onemkl/dft/detail/descriptor_impl.hpp"
 
 #include "mklgpu_helpers.hpp"
 
 // MKLGPU header
-#include "oneapi/mkl/dfti.hpp"
+#include "oneapi/onemkl/dfti.hpp"
 
 /**
 Note that in this file, the Intel MKL-GPU library's interface mirrors the interface

@@ -20,11 +20,11 @@
 #ifndef _ONEMKL_DFT_SRC_MKLGPU_HELPERS_HPP_
 #define _ONEMKL_DFT_SRC_MKLGPU_HELPERS_HPP_
 
-#include "oneapi/mkl/detail/exceptions.hpp"
-#include "oneapi/mkl/dft/detail/types_impl.hpp"
+#include "oneapi/onemkl/detail/exceptions.hpp"
+#include "oneapi/onemkl/dft/detail/types_impl.hpp"
 
 // MKLGPU header
-#include "oneapi/mkl/dfti.hpp"
+#include "oneapi/onemkl/dfti.hpp"
 
 namespace oneapi {
 namespace mkl {

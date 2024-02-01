@@ -32,7 +32,7 @@
 #include "allocator_helper.hpp"
 #include "cblas.h"
 #include "oneapi/mkl.hpp"
-#include "oneapi/mkl/detail/config.hpp"
+#include "oneapi/onemkl/detail/config.hpp"
 #include "onemkl_blas_helper.hpp"
 #include "reference_blas_templates.hpp"
 #include "test_common.hpp"

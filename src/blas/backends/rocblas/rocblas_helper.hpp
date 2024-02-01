@@ -29,7 +29,7 @@
 
 #include <rocblas/rocblas.h>
 #include <complex>
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 #include <hip/hip_runtime.h>
 
 namespace oneapi {

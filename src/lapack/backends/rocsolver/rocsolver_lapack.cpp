@@ -21,8 +21,8 @@
 #include "rocsolver_helper.hpp"
 #include "rocsolver_task.hpp"
 
-#include "oneapi/mkl/exceptions.hpp"
-#include "oneapi/mkl/lapack/detail/rocsolver/onemkl_lapack_rocsolver.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
+#include "oneapi/onemkl/lapack/detail/rocsolver/onemkl_lapack_rocsolver.hpp"
 
 namespace oneapi {
 namespace mkl {

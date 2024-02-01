@@ -20,8 +20,8 @@
 #include "cusolver_helper.hpp"
 #include "cusolver_task.hpp"
 
-#include "oneapi/mkl/exceptions.hpp"
-#include "oneapi/mkl/lapack/detail/cusolver/onemkl_lapack_cusolver.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
+#include "oneapi/onemkl/lapack/detail/cusolver/onemkl_lapack_cusolver.hpp"
 
 namespace oneapi {
 namespace mkl {

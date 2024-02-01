@@ -74,10 +74,10 @@
 
 #include "curand_helper.hpp"
 #include "curand_task.hpp"
-#include "oneapi/mkl/exceptions.hpp"
-#include "oneapi/mkl/rng/detail/curand/onemkl_rng_curand.hpp"
-#include "oneapi/mkl/rng/detail/engine_impl.hpp"
-#include "oneapi/mkl/rng/engines.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
+#include "oneapi/onemkl/rng/detail/curand/onemkl_rng_curand.hpp"
+#include "oneapi/onemkl/rng/detail/engine_impl.hpp"
+#include "oneapi/onemkl/rng/engines.hpp"
 
 namespace oneapi {
 namespace mkl {

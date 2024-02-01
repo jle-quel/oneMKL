@@ -23,10 +23,10 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
-#include "oneapi/mkl/dft/detail/rocfft/onemkl_dft_rocfft.hpp"
-#include "oneapi/mkl/dft/descriptor.hpp"
+#include "oneapi/onemkl/dft/detail/rocfft/onemkl_dft_rocfft.hpp"
+#include "oneapi/onemkl/dft/descriptor.hpp"
 
 #include "execute_helper.hpp"
 #include "rocfft_handle.hpp"

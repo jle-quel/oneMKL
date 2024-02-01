@@ -23,9 +23,9 @@
 #include <CL/sycl.hpp>
 #endif
 
-#include "oneapi/mkl/blas/detail/mklcpu/onemkl_blas_mklcpu.hpp"
+#include "oneapi/onemkl/blas/detail/mklcpu/onemkl_blas_mklcpu.hpp"
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 #include "../mkl_common/mkl_blas_backend.hpp"
 
 namespace oneapi {

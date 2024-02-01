@@ -67,7 +67,7 @@
 
 #include <rocrand.h>
 #include <complex>
-#include "oneapi/mkl/types.hpp"
+#include "oneapi/onemkl/types.hpp"
 
 namespace oneapi {
 namespace mkl {

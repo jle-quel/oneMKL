@@ -20,7 +20,7 @@
 #ifndef _ONEMKL_SPARSE_BLAS_FUNCTION_TABLE_HPP_
 #define _ONEMKL_SPARSE_BLAS_FUNCTION_TABLE_HPP_
 
-#include "oneapi/mkl/sparse_blas/types.hpp"
+#include "oneapi/onemkl/sparse_blas/types.hpp"
 #include "sparse_blas/macros.hpp"
 
 #define DEFINE_SET_CSR_DATA(FP_TYPE, FP_SUFFIX, INT_TYPE, INT_SUFFIX)                        \

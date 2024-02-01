@@ -18,8 +18,8 @@
 *******************************************************************************/
 #include <cstdarg>
 
-#include "oneapi/mkl/detail/exceptions.hpp"
-#include "oneapi/mkl/dft/descriptor.hpp"
+#include "oneapi/onemkl/detail/exceptions.hpp"
+#include "oneapi/onemkl/dft/descriptor.hpp"
 
 #include "dft/descriptor_config_helper.hpp"
 

@@ -38,7 +38,7 @@ Usage:
 
 Example:
 
-    {script}  include/oneapi/mkl/blas/detail/mklgpu mklgpu
+    {script}  include/oneapi/onemkl/blas/detail/mklgpu mklgpu
 '''.format(script = argv[0]))
 
 if len(argv) <= 2:

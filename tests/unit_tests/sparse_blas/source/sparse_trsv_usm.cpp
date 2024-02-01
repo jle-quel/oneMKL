@@ -28,7 +28,7 @@
 #endif
 
 #include "oneapi/mkl.hpp"
-#include "oneapi/mkl/detail/config.hpp"
+#include "oneapi/onemkl/detail/config.hpp"
 #include "sparse_reference.hpp"
 #include "test_common.hpp"
 #include "test_helper.hpp"

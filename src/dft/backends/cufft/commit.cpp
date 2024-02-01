@@ -27,12 +27,12 @@
 #include <algorithm>
 #include <optional>
 
-#include "oneapi/mkl/exceptions.hpp"
+#include "oneapi/onemkl/exceptions.hpp"
 
-#include "oneapi/mkl/dft/detail/commit_impl.hpp"
-#include "oneapi/mkl/dft/detail/descriptor_impl.hpp"
-#include "oneapi/mkl/dft/detail/cufft/onemkl_dft_cufft.hpp"
-#include "oneapi/mkl/dft/types.hpp"
+#include "oneapi/onemkl/dft/detail/commit_impl.hpp"
+#include "oneapi/onemkl/dft/detail/descriptor_impl.hpp"
+#include "oneapi/onemkl/dft/detail/cufft/onemkl_dft_cufft.hpp"
+#include "oneapi/onemkl/dft/types.hpp"
 
 #include <cufft.h>
 #include <cuda.h>
